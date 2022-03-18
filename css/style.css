@@ -1,0 +1,54 @@
+/* 
+  HEADER 
+*/
+header{
+  height: 60px;
+  position: relative;
+}
+
+.content-header{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+
+
+
+/* 
+  MAIN 
+*/
+main{
+  height: calc(100vh - 140px);
+  overflow-y: auto;
+  
+}
+
+
+
+
+/* 
+  FOOTER 
+*/
+footer{
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  /* background-color: #222222; */
+}
+
+
+footer ul{
+  /* justify-content: space-around; */
+}
+
+footer ul li{
+  margin: 0 10px;
+  flex-direction: column;
+}
+
+footer i{
+  font-size: 20px;
+  color: white;
+}

@@ -12,18 +12,15 @@
 
 
 .btn{
-  padding: 5px;
+  padding: 4px;
   background-color: #4A4A4A;
   color: white;
-  border-radius: 5px;
+  border-radius: 4px;
   font-size: 10px;
   display: inline-block;
   cursor: pointer;
+  margin-left: 3px;
 }
-
-
-
-
 
 
 

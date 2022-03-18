@@ -2,8 +2,9 @@
   HEADER 
 */
 header{
-  height: 60px;
+  height: 50px;
   position: relative;
+  background-color: black;
 }
 
 .content-header{
@@ -19,9 +20,26 @@ header{
   MAIN 
 */
 main{
-  height: calc(100vh - 140px);
+  height: calc(100vh - 110px);
   overflow-y: auto;
-  
+  flex-wrap: wrap;
+}
+
+.user-image{
+  width: 185px;
+  height: 110px;
+  margin: 2px;
+  position: relative;
+}
+
+.mic-name{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 4px;
+  background-color: rgba(0, 0, 0, .2);
+  font-weight: 800;
+  color: white;
 }
 
 
@@ -31,24 +49,51 @@ main{
   FOOTER 
 */
 footer{
-  height: 80px;
+  height: 60px;
   justify-content: space-between;
   align-items: center;
-  padding-left: 10px;
-  /* background-color: #222222; */
+  background-color: #222222;
+  color: white;
 }
 
-
-footer ul{
-  /* justify-content: space-around; */
-}
-
-footer ul li{
-  margin: 0 10px;
-  flex-direction: column;
-}
 
 footer i{
   font-size: 20px;
   color: white;
+  margin-bottom: 5px;
 }
+
+footer .btn-footer{
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+footer .btn-footer .active{
+  color: #4AC800;
+}
+
+footer .end-meet{
+  padding: 0 15px;
+  font-size: 10px;
+  /* line-height: 58px; non va bene */
+  background-color: #4A4A4A;
+  color: red;
+  /* padding: 24px; */
+  align-items: stretch;
+}
+
+
+.fa-chevron-up{
+  font-size: 8px;
+}
+
+/* li .chevron{
+  flex-direction: row;
+  align-items: center;
+} */
+
+/* .shrink{
+  flex-shrink: 3;
+} */

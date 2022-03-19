@@ -26,7 +26,7 @@ main{
 }
 
 .user-image{
-  width: 185px;
+  width: 180px;
   height: 110px;
   margin: 2px;
   position: relative;
@@ -58,7 +58,7 @@ footer{
 
 
 footer i{
-  font-size: 20px;
+  font-size: 22px;
   color: white;
   margin-bottom: 5px;
 }
@@ -68,32 +68,30 @@ footer .btn-footer{
   align-items: center;
   margin: 0 10px;
   cursor: pointer;
+  flex-shrink: 0;
+}
+
+
+/* Non funziona  */
+/* li .chevron{
+  flex-direction: row;
+  align-items: center;
+} */
+
+.fa-chevron-up{
+  font-size: 8px;
+  
 }
 
 footer .btn-footer .active{
   color: #4AC800;
 }
 
-footer .end-meet{
-  padding: 0 15px;
-  font-size: 10px;
-  /* line-height: 58px; non va bene */
+footer .btn-end-meet{
+  padding: 23px 15px;
+  margin: 0;
   background-color: #4A4A4A;
   color: red;
-  /* padding: 24px; */
-  align-items: stretch;
+  /* Non funziona  */
+  /* align-items: stretch; */
 }
-
-
-.fa-chevron-up{
-  font-size: 8px;
-}
-
-/* li .chevron{
-  flex-direction: row;
-  align-items: center;
-} */
-
-/* .shrink{
-  flex-shrink: 3;
-} */

@@ -69,6 +69,34 @@ footer .btn-footer{
   margin: 0 10px;
   cursor: pointer;
   flex-shrink: 0;
+  position: relative;
+}
+
+.fa-chevron-up{
+  font-size: 8px;
+}
+
+.chevron-left{
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+
+.chevron-right{
+  position: absolute;
+  top: 15px;
+  left: 60px;
+}
+
+
+li .li-chevron{
+  position: relative;
+}
+
+li .fa-chevron-up{
+  position: absolute;
+  top: 15px;
+  left: 0;
 }
 
 
@@ -78,10 +106,7 @@ footer .btn-footer{
   align-items: center;
 } */
 
-.fa-chevron-up{
-  font-size: 8px;
-  
-}
+
 
 footer .btn-footer .active{
   color: #4AC800;
